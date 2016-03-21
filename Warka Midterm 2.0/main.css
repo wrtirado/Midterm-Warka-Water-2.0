@@ -10,16 +10,46 @@ body {
   background-position: center;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: -50px;
   z-index: -10;
+  display: inline;
+}
+
+.everyDrop{
+  color: blue;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  font-size: 5em;
+}
+
+.emptyBox{
+  position: relative;
+  height: 20vh;
+  width: 100vw;
+}
+
+.contentBox{
+  width: 100%;
+  background-color: white;
+  padding: 50px 0px;
+  /*position: relative;*/
+  }
+
+.floatContainer{
+  margin: 0 auto;
+  width: 626px;
 }
 
 .indiegogoButton {
-  align-self: center;
-  position: relative;
+  /*text-align: center;*/
+  margin-right: auto;
+  margin-left: auto;
 }
-.greenBox {
+/*.greenBox {
   width: 500px;
   height: 500px;
   background-color: green;
@@ -65,4 +95,4 @@ body {
   width: 500px;
   height: 500px;
   background-color: red;
-}
+}*/
