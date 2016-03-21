@@ -1,0 +1,68 @@
+body {
+  margin-top: 100px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.backgroundPhoto {
+  background-image: url("http://www.warkawater.org/wp-content/uploads/2014/12/WW_IM_PH_V3.2_150526_Dorze_Inauguration_P1015901_4032x3024_AV-2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: -50px;
+  z-index: -10;
+}
+
+.indiegogoButton {
+  align-self: center;
+  position: relative;
+}
+.greenBox {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.yellowBox {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
+
+.whiteBox {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+.orangeBox {
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+}
+
+.pinkBox {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+}
+
+.purpleBox {
+  width: 500px;
+  height: 500px;
+  background-color: purple;
+}
+
+.blueBox {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+.redBox {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}

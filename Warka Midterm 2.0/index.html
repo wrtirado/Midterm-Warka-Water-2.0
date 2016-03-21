@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="warkaApp">
+
+<head>
+  <!-- Sourcing in the jquery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+  <!-- Sourcing in the Angular Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+  <!-- Sourcing in UI Router -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js" charset="utf-8"></script>
+  <!-- Linking in Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <title>Wark Water</title>
+</head>
+
+<body ng-controller="warkaController as warkaCtrl">
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <!-- navbar -->
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <ul class="nav nav-pills navbar-right">
+        <li role="presentation" class="active"><a ui-sref="news">News</a></li>
+        <li role="presentation"><a ui-sref="design">Design</a></li>
+        <li role="presentation"><a ui-sref="evolution">Evolution</a></li>
+        <li role="presentation"><a ui-sref="media">Media</a></li>
+        <li role="presentation"><a ui-sref="faq">FAQ</a></li>
+        <li role="presentation"><a ui-sref="team">Team</a></li>
+        <li role="presentation"><a ui-sref="donate">Donate</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <!-- background Photo and main body with UI Router linking in the specific partials -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <div class="backgroundPhoto">
+      <div ui-view class="content"></div>
+    </div>
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <!-- Sticky Footer -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+
+    </div>
+  </nav>
+  <script type="text/javascript" src="warkaController.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

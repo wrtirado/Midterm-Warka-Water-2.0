@@ -1,7 +1,5 @@
-(function() {
-  'use strict';
-
-  angular.module('warkaApp', [])
+;(function() {
+  angular.module('warkaAppControllers', [])
       .controller('warkaController', warkaController)
 
 
