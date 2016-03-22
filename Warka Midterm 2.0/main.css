@@ -10,6 +10,10 @@ body {
   background-color: white;
 }
 
+.blue {
+  background-color: #01A0E4;
+}
+
 .emptyBox{
   position: relative;
   height: 10vh;
