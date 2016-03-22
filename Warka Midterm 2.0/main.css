@@ -3,7 +3,21 @@ body {
   padding-bottom: 70px;
   position: relative;
 }
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Global Classes -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.white {
+  background-color: white;
+}
 
+.emptyBox{
+  position: relative;
+  height: 10vh;
+  width: 100vw;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Landing Page -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .backgroundPhoto {
   background-image: url("http://www.warkawater.org/wp-content/uploads/2014/12/WW_IM_PH_V3.2_150526_Dorze_Inauguration_P1015901_4032x3024_AV-2.jpg");
   background-size: cover;
@@ -17,7 +31,7 @@ body {
 }
 
 .everyDrop{
-  color: blue;
+  color: #0071FF;
   position: relative;
   top: 50%;
   text-align: center;
@@ -26,17 +40,11 @@ body {
   font-size: 5em;
 }
 
-.emptyBox{
-  position: relative;
-  height: 10vh;
-  width: 100vw;
-}
 
 .contentBox{
   width: 100%;
   background-color: white;
   padding: 50px 0px;
-  /*position: relative;*/
   }
 
 .floatContainer{
@@ -49,50 +57,6 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-/*.greenBox {
-  width: 500px;
-  height: 500px;
-  background-color: green;
-}
-
-.yellowBox {
-  width: 500px;
-  height: 500px;
-  background-color: yellow;
-}
-
-.whiteBox {
-  width: 500px;
-  height: 500px;
-  background-color: white;
-}
-
-.orangeBox {
-  width: 500px;
-  height: 500px;
-  background-color: orange;
-}
-
-.pinkBox {
-  width: 500px;
-  height: 500px;
-  background-color: pink;
-}
-
-.purpleBox {
-  width: 500px;
-  height: 500px;
-  background-color: purple;
-}
-
-.blueBox {
-  width: 500px;
-  height: 500px;
-  background-color: blue;
-}
-
-.redBox {
-  width: 500px;
-  height: 500px;
-  background-color: red;
-}*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Partial News Page -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
