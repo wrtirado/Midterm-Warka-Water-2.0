@@ -21,6 +21,6 @@
       .state('team',{url: '/team', templateUrl: './team.html'})
 
       .state('donate', {url: '/donate', templateUrl: './donate.html',})
-      $urlRouterProvider.otherwise('/')
+      // $urlRouterProvider.otherwise('/')
   }
 }())
