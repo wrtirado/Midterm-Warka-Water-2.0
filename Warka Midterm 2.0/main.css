@@ -58,5 +58,13 @@ body {
   margin-left: auto;
 }
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
--=-=-=-=-=-=- Partial News Page -=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Partial: News Page -=-=-=-=-=-=-=-=-=-=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.containerContainer {
+  height: 10vh;
+}
+
+.textContainer h1 {
+  text-align: center;
+}
