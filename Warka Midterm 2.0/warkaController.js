@@ -210,15 +210,12 @@
                   },
                 ]
 
-                warkaCtrl.showProject = {}
-                warkaCtrl.showFunction = {}
-                warkaCtrl.showMaterialsAndDesign = {}
-                warkaCtrl.showInstallation = {}
-                warkaCtrl.showMaintenance = {}
-                warkaCtrl.showEnviroment = {}
-                warkaCtrl.showAlternatives = {}
-                warkaCtrl.showSupport = {}
 
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// -=-=-=-=- Show Object object that is used -=-=-=-=-=-
+// =-=-=-=-= alongside the expand funciton to -=-=-=-=-=
+// -=-=-=-=- make a collapsable list for the FAQ -=-=-=-
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                 warkaCtrl.showObj = {
                   project: {},
                   function: {},
@@ -229,6 +226,10 @@
                   alternatives: {},
                   support: {},
                 }
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// -=-=-=-=-=-=-=-= the expand function =-=-=-=-=-=-=-=-
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
                 warkaCtrl.expand = function(key, index){
                   if(warkaCtrl.showObj[key][index]) {
