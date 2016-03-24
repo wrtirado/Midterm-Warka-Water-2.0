@@ -24,8 +24,11 @@
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+      <ul class="nav nav-pills navbar-left">
+        <li style="font-family: Script; font-size: 40px;" rile="presentation"><a ui-sref="landingpage">Warka Water</a></li>
+      </ul>
       <ul class="nav nav-pills navbar-right">
-        <li role="presentation" class="active"><a ui-sref="news">News</a></li>
+        <li role="presentation"><a ui-sref="news">News</a></li>
         <li role="presentation"><a ui-sref="design">Design</a></li>
         <li role="presentation"><a ui-sref="evolution">Evolution</a></li>
         <li role="presentation"><a ui-sref="media">Media</a></li>
@@ -39,7 +42,7 @@
     <!-- background Photo and main body with UI Router linking in the specific partials -->
   <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
     <div class="backgroundPhoto">
-      <p class="everyDrop">Every Drop Counts</p>
+      <p class="everyDrop">Every.<br> Drop.<br> Counts.</p>
     </div>
     <div ui-view class="content"></div>
   <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
