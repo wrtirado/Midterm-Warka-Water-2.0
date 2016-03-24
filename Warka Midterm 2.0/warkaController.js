@@ -241,6 +241,62 @@
 
 
 
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// -=-=-=-=- Array Containing Team Image links -=-=-=-=-
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+              warkaCtrl.teamArr = [
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_ARTURO_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_GIANNI_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_PRECIOUS_1200X295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_JINA_1200x292.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151201_WP_01_PARRY_1200x295_1.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_ADANE_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_KIDUS_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_SUNIL_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_LEONE_1200X295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151103_WP_01_RAFFI_1200x295.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/WW_PR_Team_151209_WP_01_NEERAJ_1200x295_7.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/NEHA_PRADHAN-11-01.jpg",
+                },
+                {
+                  url: "http://www.warkawater.org/wp-content/uploads/2014/10/andrew-ramiro-tirado-11-01.jpg",
+                },
+              ]
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

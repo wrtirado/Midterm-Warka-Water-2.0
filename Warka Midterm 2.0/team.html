@@ -1,5 +1,27 @@
-<div>
-  <div class="whiteBox">
+<div class="row">
+  <div class="white col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12">
+    <div class="white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+      <p class="text-center">Warka Water team members are based in Italy, India, Lebanon, US, UK, Ethiopia, and Nigeria. They are led by the CEO and Founder, Arturo Vittori. Please see below for more information about our international staff.</p>
+    </div>
+    <div class="white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+      <h2 class="text-center">TEAM</h2>
+    </div>
+    <div class="emptyBox"></div>
+    <div class="white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+      <p class="text-center">The Warka Water V5 Team Is Constituted by:</p>
+    </div>
+    <div class="emptyBox"></div>
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    -=-=-=-=-=-= Team Photos/info ng-repeat -=-=-=-=-=-=-
+    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
 
+    <div ng-repeat="url in warkaCtrl.teamArr" class="white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12">
+      <img class="img-responsive" src="{{url.url}}"/>
+    </div>
+
+    <div class="emptyBox"></div>
+    <div class="emptyBox"></div>
+
+    div
   </div>
 </div>

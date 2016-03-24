@@ -14,8 +14,6 @@
 
       .state('evolution',{url: '/evolution', templateUrl: './evolution.html'})
 
-      .state('media', {url: '/media', templateUrl: './media.html',})
-
       .state('faq', {url: '/faq', templateUrl: './faq.html',})
 
       .state('team',{url: '/team', templateUrl: './team.html'})
