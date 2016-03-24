@@ -23,10 +23,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('project', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showProject[$index]">
+              <div ng-show="warkaCtrl.showObj.project[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -43,10 +43,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('function', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.function[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -63,10 +63,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('materials', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.materials[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -83,10 +83,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('installation', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.installation[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -103,10 +103,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('maintenance', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.maintenance[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -123,10 +123,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('enviroment', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.enviroment[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -139,14 +139,14 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
         <h1>Alternatives</h1>
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
-          <div ng-repeat="obj in warkaCtrl.faqAlternaves" class="panel-group" id="accordion">
+          <div ng-repeat="obj in warkaCtrl.faqAlternatives" class="panel-group" id="accordion">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('alternatives', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.alternatives[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
@@ -163,10 +163,10 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-          <a ng-click="warkaCtrl.expand($index)">{{obj.question}}</a>
+          <a ng-click="warkaCtrl.expand('support', $index)">{{obj.question}}</a>
         </h4>
               </div>
-              <div ng-show="warkaCtrl.showObj[$index]">
+              <div ng-show="warkaCtrl.showObj.support[$index]">
                 <div><p>{{obj.answer}}</p></div>
               </div>
             </div>
