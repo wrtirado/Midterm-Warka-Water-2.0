@@ -1,8 +1,8 @@
-;(function() {
-  angular.module('warkaAppControllers', [])
-      .controller('warkaController', warkaController)
+;(function() { //<-- I was feelin' iife
+  angular.module('warkaAppControllers', []) //<-- Create Module
+      .controller('warkaController', warkaController) //<--instantiate warkaController
 
-  function warkaController() {
+  function warkaController() { //<-- Hoisted warka Controller Callback Function
     var warkaCtrl = this
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // -=-=-=-=- Array Containing Team Image links -=-=-=-=-
@@ -49,8 +49,6 @@
       url: "http://www.warkawater.org/wp-content/uploads/2014/10/andrew-ramiro-tirado-11-01.jpg",
     },
   ]
-
-
 
   warkaCtrl.evolutionArr = [
     {
@@ -159,8 +157,6 @@
     },
 
   ]
-
-
 
   warkaCtrl.newsArr = [
     {
@@ -485,7 +481,7 @@ warkaCtrl.expand = function(key, index){
         warkaCtrl.evolutionArr.push( NewEvo )
       }
 
-      warkaCtrl.newNews = funciton( date, monthAndYear, title, imgUrl, paragraph ) {
+      warkaCtrl.newNews = function( date, monthAndYear, title, imgUrl, paragraph ) {
         this.date = date,
         this.monthAndYear = monthAndYear,
         this.title = title,
@@ -495,9 +491,5 @@ warkaCtrl.expand = function(key, index){
       }
 
 
-
-
-
-
-   }
- }());
+   } //<-- End of warkaController callback function
+ }()); //<-- End of iife
