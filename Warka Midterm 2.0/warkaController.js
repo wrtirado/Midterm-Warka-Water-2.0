@@ -50,6 +50,8 @@
     },
   ]
 
+
+
   warkaCtrl.evolutionArr = [
     {
       url: "http://www.warkawater.org/wp-content/uploads/2014/12/imgpsh_fullsize222.jpg",
@@ -158,6 +160,8 @@
 
   ]
 
+
+
   warkaCtrl.newsArr = [
     {
       date: "18",
@@ -230,6 +234,8 @@
       paragraph: "Warka Water project will be presented at the coming TedxAddis the 21th of November. This edition conference topic is “Building Bridges – Linking Knowledge”. TED is a nonprofit organization devoted to Ideas Worth Spreading. The main theme of this coming conference is “All or Nothing”: “The world we inhabit today is one full of challenges, opportunities and contradictions where our ability to grapple with the future is grounded in our choices. And although we are beginning to realize that life isn’t a grand zero sum equation, sometimes we must polarize others and wager everything we have in order to realize our full potential.” \n\nEvent: TEDxBangalore Date: November 21th, 2015\n\nFor more information: http://www.tedxaddis.com/index.php/jstuff/2015",
     },
   ]
+
+
 
 
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -459,5 +465,39 @@ warkaCtrl.expand = function(key, index){
   else{warkaCtrl.showObj[key][index] = true}
   console.log(warkaCtrl.showObj);
      }
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// -=-=-=-=-=-=-=-= Constructor Functions =-=-=-=-=-=-=-
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+      warkaCtrl.NewTeam = function( url ) {
+        this.url = url
+        warkaCtrl.teamArr.push(NewTeam)
+      }
+
+      warkaCtrl.NewEvo = function( url, version, prototype, year, context, location ) {
+        this.url = url,
+        this.version = version,
+        this.prototype = prototype,
+        this.year = year,
+        this.context = context,
+        this.location = location,
+        warkaCtrl.evolutionArr.push( NewEvo )
+      }
+
+      warkaCtrl.newNews = funciton( date, monthAndYear, title, imgUrl, paragraph ) {
+        this.date = date,
+        this.monthAndYear = monthAndYear,
+        this.title = title,
+        this.imgUrl = imgUrl,
+        this.paragraph = paragraph,
+        warkaCtrl.newsArr.push( newNews )
+      }
+
+
+
+
+
+
    }
  }());
