@@ -4,8 +4,6 @@
 
   function warkaController() {
     var warkaCtrl = this
-
-
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // -=-=-=-=- Array Containing Team Image links -=-=-=-=-
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -160,12 +158,86 @@
 
   ]
 
+  warkaCtrl.newsArr = [
+    {
+      date: "18",
+      monthAndYear: "MAR 2016",
+      title: "AWARD | WINNER | WORLD DESIGN IMPACT PRIZE",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/03/warkawater_wdipwinner.jpg",
+      paragraph: "We are honored to share that Warka Water​ has just been announced as the WINNER of the International Council of Societies of Industrial Design (Icsid)​ World Design Impact Prize!! \n\nOur founder Arturo Vittori​ accepted the award tonight at the WDC 2016 Design Gala in Taipei. \n\nMore information on this illustrious award and recognition can be found at http://worlddesignimpact.org/",
+    },
+    {
+      date: "11",
+      monthAndYear: "MAR 2016",
+      title: "AWARD | EXHIBIT | WORLD DESIGN IMPACT",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/03/12800164_670396279767903_8994424633295414050_n.png",
+      paragraph: "Warka Water, voted one of three finalists for the 2015-2016 World Design Impact Prize by the International Council of Societies of Industrial Design (Icsid), will be presented in front of an international design audience on March 18 in Taipei (Taiwan, Chinese Taipei) by the project’s director, Arturo Vittori. On the same day, the winner of the prize will be announced at the International Design Gala, one of the signature events of World Design Capital® Taipei 2016. \n\nIcsid awards the World Design Impact Prize biennally to an industrial design-driven project aiming to benefit society. More information about the prize may be found at www.worlddesignimpact.org",
+    },
+    {
+      date: "22",
+      monthAndYear: "FEB 2016",
+      title: "LECTURE | UNIVERSIDAD DEL NORTE | BARRANQUILLA, COLOMBIA",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/02/12734007_663171863823678_3569293135381720057_n.png",
+      paragraph: "Arturo Vittori will be giving a free and open lecture Monday, February 22nd, 11am-1pm at Universidad del Norte in Barranquilla, Colombia.",
+    },
+    {
+      date: "17",
+      monthAndYear: "FEB 2016",
+      title: "LECTURE | PONTIFICIA UNIVERSIDAD JAVERIANA | BOGOTA, COLOMBIA",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/02/bogota-university-jpg.jpg",
+      paragraph: "Arturo Vittori, Director of Warka Water, is giving a free lecture Wednesday, February 17, 3 – 5 pm, at Pontificia Universidad Javeriana’s Auditorium Marino Troncoso in Bogotá, Columbia.",
+    },
+    {
+      date: "13",
+      monthAndYear: "JAN 2016",
+      title: "AWARD | FINALIST | WORLD DESIGN IMPACT",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/01/finalist-wdiprize.jpg",
+      paragraph: "We are absolutely thrilled to share that Warka Water has been chosen as a finalist for the International Council of Societies of Industrial Design (Icsid) World Design Impact Prize! From 82 nominations this year, Warka Water is now one of the final three selections for the Prize. \n\nFor more information, click: \n\nhttp://www.icsid.org/news/year/2016_news/articles2102.htm \n\nThank you to all who helped get us to this point — your support has been invaluable to us and is deeply appreciated.",
+    },
+    {
+      date: "10",
+      monthAndYear: "JAN 2016",
+      title: "EXHIBIT | I.D.E.A. | COLORADO COLLEGE, USA",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2016/01/LogoSquare-1.jpg",
+      paragraph: "Warka Water will be exhibited at the Colorado College I.D.E.A. (InterDisciplinary Experimental Arts) Hydrologic exhibit, curated by Holly Parker, from January 18 – March 5, 2016. Arturo Vittori is the Featured Artist in Residence there and will be delivering the keynote address at the opening event on Thursday, January 21st, and will lead a workshop to construct a Warka Water tower with those in attendance later in the week. \n\nThe Hydrologic exhibition and events focus on artists and architects, like Vittori, who are actively changing the landscape of water availability through art and design. The projects presented, like Warka Water, combine both science and art, function and form, to find creative new approaches to water scarcity around the world.\n\nFor more information, please visit the Upcoming IDEAS site: http://sites.coloradocollege.edu/ideaspace/upcoming/",
+    },
+    {
+      date: "12",
+      monthAndYear: "DEC 2015",
+      title: "CROWD FUNDING CAMPAIGN LAUNCHED!",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2015/12/IMG_20150514_104247-6.jpg",
+      paragraph: "Thank you for your extraordinary support and for believing in Warka Water. We are back from our recent trip to India, where Warka Water 5.0 will be installed at a new pilot site next year. We would love to get your help to bring Warka Water to India. Please support us on our new crowdfunding campaign! \n\nhttp://bit.ly/1Oo9jQc \n\nFinally, our National Geographic “Breathrough” episode on Water Apocalypse airs on Sunday, Dec 20 at 10 am EST. We look forward to sharing the story behind our first pilot in Dorze!",
+    },
+    {
+      date: "01",
+      monthAndYear: "DEC 2015",
+      title: "EXHIBITION | WARKA WATER 3.2",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2015/12/imgpsh_fullsize.jpg",
+      paragraph: "Warka Water will be exhibited at the Indian Institute of Technology (IIT), Mumbai during the conference Cumulus Mumbai 2015. Project material samples, drawings, panels, videos, full scale prototype and a scale model will be displayed to illustrate the project. \n\nVenue: VMCC, Opposite IDC, IIT Bombay Date: 3 – 5: December 2015",
+    },
+    {
+      date: "29",
+      monthAndYear: "NOV 2015",
+      title: "CONFERENCE | CUMULUS | BOMBAY",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2015/11/CM_NW_151129_Cumulus_Bombay.jpg",
+      paragraph: "Cumulus Mumbai 2015 is a series of events revolving around sustainability and design projects that focus on water: ‘In a planet of our own: a vision of sustainability with a focus on water’. \n\nArturo Vittori, an event Keynote Speaker, will be directing a workshop titled: “Water from Air.” There will also be an exhibition about Warka Water will take place during the event where several project materials will be displayed with videos, panels, scale models and full scale prototypes. Venue: VMCC, Opposite IDC, IIT Bombay Date: 3 – 5: December 2015 Link: http://cumulusmumbai2015.org/home.html",
+    },
+    {
+      date: "05",
+      monthAndYear: "NOV 2015",
+      title: "CONFERENCE | TEDX | ADDIS ABEBA",
+      imgUrl: "http://www.warkawater.org/wp-content/uploads/2015/11/CM_NW_151004_TEDX_Addis_1000x563.jpg",
+      paragraph: "Warka Water project will be presented at the coming TedxAddis the 21th of November. This edition conference topic is “Building Bridges – Linking Knowledge”. TED is a nonprofit organization devoted to Ideas Worth Spreading. The main theme of this coming conference is “All or Nothing”: “The world we inhabit today is one full of challenges, opportunities and contradictions where our ability to grapple with the future is grounded in our choices. And although we are beginning to realize that life isn’t a grand zero sum equation, sometimes we must polarize others and wager everything we have in order to realize our full potential.” \n\nEvent: TEDxBangalore Date: November 21th, 2015\n\nFor more information: http://www.tedxaddis.com/index.php/jstuff/2015",
+    },
+  ]
+
+
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // -=-=-=-=- Arrays Containing questions and -=-=-=-=-=
   // =-=-=-=-= answers used on the FAQ page =-=-=-=-=-=-=-
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-warkaCtrl.faqSupport = [
+ warkaCtrl.faqSupport = [
   {
     question: "Did You Receive Assistance From Other Organizations, Such As The University In Ethiopia?",
     answer: "We worked independently with no specific assistance from other organizations. Only some external collaboration in specific project development phases.",
@@ -183,7 +255,7 @@ warkaCtrl.faqSupport = [
     If you would like to publish an article or a blog post on Warka Water to help us spread the word, or have any other collaboration ideas, please drop us an email at mail@architectureandvision. And lastly, help us make this Kickstarter project a success by making a donation here! We would greatly appreciate your support for Warka Water.",
   },
 ]
-warkaCtrl.faqAlternatives = [
+ warkaCtrl.faqAlternatives = [
   {
     question: "Are There Any Alternative Or Even Complementary (To Warka) Water-Gathering Solutions That Have Been Previously Adopted In Local Communities?",
     answer: "Historically, there are some cases of rural communities adopting similarly low-tech and passive solutions for water collection.",
@@ -197,7 +269,7 @@ warkaCtrl.faqAlternatives = [
     answer: "In addition to its water collection abilities, the Warka is designed to be used as a space for public gathering. We are focused on creating a beautiful structure that can blend into the natural and cultural environments of the rural communities, not simply putting steel masts and a net to collect water. The Warka is made up of environmentally sustainable and biodegradable materials that can be sourced locally, which can also give way to a new economy.",
   },
 ]
-warkaCtrl.faqEnviroment = [
+ warkaCtrl.faqEnviroment = [
   {
     question: "How Do You Identify The Right Site For The Warka Insilation?",
     answer: "Studying the local climate and gathering data is fundamental to site selection. Using the monitoring equipment ‘Warkino’, we analyze the weather conditions and assess the presence and frequency of fog, rain and dew in the area. Once the site has been identified as suitable for Warka, a test prototype of 1 sqm devices will be installed and monitored for 6 months. The site should have sufficient space available and free for the construction of the Warka.",
@@ -219,7 +291,7 @@ warkaCtrl.faqEnviroment = [
     answer: "Warka is meant to be settled in the high plateau area where no pollution is present due to the absence of technology.",
   },
 ]
-warkaCtrl.faqMaintenance = [
+ warkaCtrl.faqMaintenance = [
   {
     question: "What Is The Lifecycle Of A Warka Tower? Does It Require Maintenance?",
     answer: "Warka Warka installed in Ethiopia is estimated to last from 6 to 10 years. The maintenance of the structure is very important to guaranty a long duration. It is important to check-up regularly the correct functioning and apply the maintenance needed to keep Warka operative such as replacement of filters, mesh reparation, ropes regular tightening and bamboo element substitution when damaged. After the first pilot test will be tested we will have a better understanding of its durability.",
@@ -233,7 +305,7 @@ warkaCtrl.faqMaintenance = [
     answer: "All the elements, natural fibers and plastic mesh, may in part need some maintenance and replacements, such as the substitution of cracked bamboo components.",
   },
 ]
-warkaCtrl.faqInstallation = [
+ warkaCtrl.faqInstallation = [
 
   {
     question: "How Is It Constructed?",
@@ -256,7 +328,7 @@ warkaCtrl.faqInstallation = [
     answer: "",
   },
 ]
-warkaCtrl.faqMaterialsAndDesign = [
+ warkaCtrl.faqMaterialsAndDesign = [
   {
     question: "What Materials Do Locals Need To Make The Warka Tower Within Their Communities?",
     answer: "Warka consists of local and biodegradable materials such as bamboo, hemp and bio-plastic. Bamboo is the main material used for the frame structure. It is available locally in Ethiopia and can be found in many areas of the world.",
@@ -278,7 +350,7 @@ warkaCtrl.faqMaterialsAndDesign = [
     answer: "Since the design involves complex geometry, it had to be done using several parametric computing programs and techniques. But we always kept in mind that the construction needs to be simple and easy. Parametric Grasshopper was used for the design, the kinematics and mechanics were studied and simulated with Autodesk Inventor, and the 3D mesh with Autocad.",
   },
 ]
-warkaCtrl.faqFunction = [
+ warkaCtrl.faqFunction = [
   {
     question: "How Does The Warka Tower Collect Water?",
     answer: "WW is designed for harvesting dew and fog and also for rain collection, providing varying amounts of potable water throughout the year. Water can be taken directly and locally from the environment, without wasting energy in transport. Rainwater and fog will be captured and stored during the meteorological events. Water by condensation will occur more frequently at night when the air temperature goes below the dew point.",
@@ -300,7 +372,7 @@ warkaCtrl.faqFunction = [
     answer: "The water should be harvested very early in the morning, before sunrise.",
   },
 ]
-warkaCtrl.faqProject = [
+ warkaCtrl.faqProject = [
   {
     question: "What Is Warka Water?",
     answer: "WW is a vertical structure designed to collect / harvest potable water from the air. It offers an alternative water source to rural populations that face challenges in accessing drinkable water.",
@@ -361,36 +433,31 @@ warkaCtrl.faqProject = [
     answer: "To finish developing version 3.1 and launch the first pilot in Ethiopia by the beginning of 2015.",
   },
 ]
-
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // -=-=-=-=- Show Object object that is used -=-=-=-=-=-
 // =-=-=-=-= alongside the expand funciton to -=-=-=-=-=
 // -=-=-=-=- make a collapsable list for the FAQ -=-=-=-
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-                warkaCtrl.showObj = {
-                  project: {},
-                  function: {},
-                  materials: {},
-                  installation: {},
-                  maintenance: {},
-                  enviroment: {},
-                  alternatives: {},
-                  support: {},
-                }
-
+warkaCtrl.showObj = {
+  project: {},
+  function: {},
+  materials: {},
+  installation: {},
+  maintenance: {},
+  enviroment: {},
+  alternatives: {},
+  support: {},
+}
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // -=-=-=-=-=-=-=-= the expand function =-=-=-=-=-=-=-=-
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-                warkaCtrl.expand = function(key, index){
-                  if(warkaCtrl.showObj[key][index]) {
-                    warkaCtrl.showObj[key][index] = false
-                  }
-                  else{warkaCtrl.showObj[key][index] = true}
-                  console.log(warkaCtrl.showObj);
-                }
-
-
-}
-
-    }());
+warkaCtrl.expand = function(key, index){
+  if(warkaCtrl.showObj[key][index]) {
+    warkaCtrl.showObj[key][index] = false
+  }
+  else{warkaCtrl.showObj[key][index] = true}
+  console.log(warkaCtrl.showObj);
+     }
+   }
+ }());
