@@ -52,6 +52,114 @@
     },
   ]
 
+  warkaCtrl.evolutionArr = [
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/imgpsh_fullsize222.jpg",
+      version: "Warka Water 5 - version 5.0",
+      prototype: "Prototype: 13",
+      year: "Year: 2015-2016",
+      context: "Context: Test Pilot",
+      location: "Location: Bomarzo - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/091_IM_ST_150803_022-copy.jpg",
+      version: "Warka Water 4 - version 4.0",
+      prototype: "Prototype: 12",
+      year: "Year: 2015",
+      context: "Context: Test Pilot",
+      location: "Location: Bomarzo - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/WW_IM_PH_V3.2_150526_Dorze_Inauguration_P1015901_4032x3024_AV-2.jpg",
+      version: "Warka Water 3 - version 3.2",
+      prototype: "Prototype: 11",
+      year: "Year: 2015",
+      context: "Context: Test Pilot",
+      location: "Location: Dorze - Ethiopia",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/WW_IM_PH_V1.7_150424_LaStorta_Sheeps_IMG_20150424_073912_4160x3120_AV.jpg",
+      version: "Warka Water 1 - version 1.7",
+      prototype: "Prototype: 10",
+      year: "Year: 2015",
+      context: "Context: Experimental Prototype",
+      location: "Location: Bomarzo - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/PJ_PH_086_Brazil_SL_06.jpg",
+      version: "Warka Water 3 - version 3.0",
+      prototype: "Prototype: 9",
+      year: "Year: 2014",
+      context: "Context: Verada Sustentavel Exhibition",
+      location: "Location: Sao Paulo - Brazil",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/WW2.0_03.jpg",
+      version: "Warka Water 2 - version 2.0",
+      prototype: "Prototype: 8",
+      year: "Year: 2014",
+      context: "Context: Workshop - Holy Spirit University",
+      location: "Location: Kaslik - Lebanon",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/WW1.6_0.3.jpg",
+      version: "Warka Water 1 - version 1.6",
+      prototype: "Prototype: 7",
+      year: "Year: 2014",
+      context: "Context: Experimental Prototype",
+      location: "Location: Bomarzo - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/CM_EX_PJ_056_IM_PJ_0948.jpg",
+      version: "Warka Water 1 - version 1.5",
+      prototype: "Prototype: 6",
+      year: "Year: 2013",
+      context: "Context: MAXXI Museum - Exhibition",
+      location: "Location: Rome - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/073_IM_PJ_OR_Munich_IMG_8315.jpg",
+      version: "Warka Water 1 - version 1.4",
+      prototype: "Prototype: 5",
+      year: "Year: 2013",
+      context: "Context: Workshop",
+      location: "Location: Munich - Germany",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/073_IM_PJ_OR_Paris_065.jpg",
+      version: "Warka Water 1 - version 1.3",
+      prototype: "Prototype: 4",
+      year: "Year: 2013",
+      context: "Context: Cite des Sciences et de L'Industrie - Exhibition",
+      location: "Location: Paris - France",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/073_IM_PJ_SE_Biennale_IMG_2550.jpg",
+      version: "Warka Water 1 - version 1.2",
+      prototype: "Prototype: 3",
+      year: "Year: 2012",
+      context: "Context: 3rd Architectural Biennale - Exhibition",
+      location: "Location: Venice - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/WW1.1_03.jpg",
+      version: "Warka Water 1 - version 1.1",
+      prototype: "Prototype: 2",
+      year: "Year: 2012",
+      context: "Context: Workshop - IUAV University",
+      location: "Location: Venice - Italy",
+    },
+    {
+      url: "http://www.warkawater.org/wp-content/uploads/2014/12/073_IM_PJ_OR_IMG_1959.jpg",
+      version: "Warka Water 1 - version 1.0",
+      prototype: "Prototype: 1",
+      year: "Year: 2012",
+      context: "Context: Workshop",
+      location: "Location: Addis Ababa - Ethiopia",
+    },
+
+  ]
+
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   // -=-=-=-=- Arrays Containing questions and -=-=-=-=-=
   // =-=-=-=-= answers used on the FAQ page =-=-=-=-=-=-=-

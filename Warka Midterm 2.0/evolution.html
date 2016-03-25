@@ -18,6 +18,23 @@
         <p>
           <br>
           <br> WW design and development activities have been mainly conducted at the Architecture and Vision labs, in Italy. Since we started with the WW projects we have built several full scale prototypes and conducts several experiments. A number of 12 prototypes have been constructed to date and WW has been assembled and constructed for test, demonstration, exhibition in several countries such as: Italy, France, Germany, Ethiopia, Brazil and Lebanon.
+          <img class="img-responsive" src="http://www.warkawater.org/wp-content/uploads/2014/12/086_DW_IL_Warka_History_031.jpg" />
+      </div>
+    </div>
+    <hr>
+    <div ng-repeat="info in warkaCtrl.evolutionArr" class="row">
+      <div class="white col-lg-8 col-lg-offset-2 co col-sm-10 white col-sm-offset-1">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <img class="img-responsive" src="{{info.url}}" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h5>{{info.version}}</h5>
+          <h5>{{info.prototype}}</h5>
+          <h5>{{info.year}}</h5>
+          <h5>{{info.context}}</h5>
+          <h5>{{info.location}}</h5>
+        </div>
+        <div class="emptyBox"></div>
       </div>
     </div>
   </div>
