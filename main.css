@@ -1,0 +1,83 @@
+body {
+  margin-top: 100px;
+  padding-bottom: 70px;
+  position: relative;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Global Classes -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: #01A0E4;
+}
+
+.emptyBox{
+  position: relative;
+  height: 10vh;
+  width: 100vw;
+}
+
+p {
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Landing Page -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.backgroundPhoto {
+  background-image: url("http://www.warkawater.org/wp-content/uploads/2014/12/WW_IM_PH_V3.2_150526_Dorze_Inauguration_P1015901_4032x3024_AV-2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: -65px;
+  z-index: -10;
+  display: inline;
+}
+
+.everyDrop{
+  color: #0071FF;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  font-size: 5em;
+}
+
+
+.contentBox{
+  width: 100%;
+  background-color: white;
+  padding: 50px 0px;
+  }
+
+.floatContainer{
+  margin: 0 auto;
+  width: 626px;
+}
+
+.indiegogoButton {
+  /*text-align: center;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=- Partial: News Page -=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.containerContainer {
+  height: 10vh;
+}
+
+.textContainer h1 {
+  text-align: center;
+}

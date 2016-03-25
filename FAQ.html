@@ -1,0 +1,481 @@
+<div>
+  <div class="emptyBox"></div>
+  <div class="row">
+    <div style="border-radius: 50px;" class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 white">
+      <div class="textContainer">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+    </div>
+    <div class="emptyBox"></div>
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=-=-Colapsable FAQ's On Project-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+    <div class="white">
+
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=- colapsable list on Project FAQ =-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Project</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqProject" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('project', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.project[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Function FAQ =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Function</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqFunction" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('function', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.function[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Materials & Design FAQ =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Materials and Design</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqMaterialsAndDesign" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('materials', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.materials[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Installation =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Installation</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqInstallation" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('installation', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.installation[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Maintenance =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Maintenance</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqMaintenance" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('maintenance', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.maintenance[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Enviroment =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Enviroment</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqEnviroment" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('enviroment', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.enviroment[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Alternatives =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Alternatives</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqAlternatives" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('alternatives', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.alternatives[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      -=-=-=-=- colapsable list on Support =-=-=-=-=-=-
+      =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+        <h1>Support</h1>
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 white">
+          <div ng-repeat="obj in warkaCtrl.faqSupport" class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+          <a ng-click="warkaCtrl.expand('support', $index)">{{obj.question}}</a>
+        </h4>
+              </div>
+              <div ng-show="warkaCtrl.showObj.support[$index]">
+                <div><p>{{obj.answer}}</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  <div class="emptyBox"></div>
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=- Submit Form -=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <div class="row">
+    <div class="white col-lg-12 col-md-12 col-sm-12">
+      <div class="white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+        <h1>Have A Question That Still Needs Answering?</h1>
+        <h3>Feel Free To Submit A Question Using Our Form Below!</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="white row">
+    <div class="col-lg-4 col-md-4 col-md-offset-2 col-sm-12">
+      <input type="text" class="form-control" placeholder="Name: i.e. John Doe">
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <input type="text" class="form-control" placeholder="Email: i.e. example@email.com">
+    </div>
+    <hr>
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12">
+      <textarea class="form-control" rows="5" placeholder="Question"></textarea>
+    </div>
+    <hr>
+  </div>
+  <div class="row">
+    <div class="white col-lg-12 col-md-12 col-sm-12">
+      <hr>
+      <div class="col-lg-2 col-lg-offset-6 col-md-3 col-md-offset-5 col-sm-4 col-sm-offset-5">
+        <input class="btn btn-default" type="submit" value="Submit">
+      </div>
+      <hr>
+    </div>
+    <div class="white col-sm-12">
+
+      <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-2 white containerContainer">
+        <h3>We Will Attempt To Get Back To You As Soon As Possible!</h3>
+      </div>
+    </div>
+  </div>
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=- Submit Form End -=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+  <!-- <div class="container white">
+  <h2>Project</h2>
+  <div class="panel-group" id="accordion">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What Is Warka Water?</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">WW is a vertical structure designed to collect / harvest potable water from the air. It offers an alternative water source to rural populations that face challenges in accessing drinkable water.</div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What Motivated You To Come Up Withe The Design?</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">In 2012, we visited the small isolated villages up on high plateau in the North East region of Ethiopia, where we witnessed this dramatic reality: the lack of potable water. The villagers live in a beautiful natural environment but often without
+          running water, electricity, a toilet or a shower. To survive here, women and children walk everyday for miles towards shallow and unprotected ponds, where the water is often contaminated with human and animal waste, parasites, and diseases.
+          It was imperative to take action and create a solution to mitigate the water shortage issue.</div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What Is The Meaning Of Warka?</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">The name “Warka Water” comes from the Warka Tree (Ficus Vasta), a giant wild fig tree native to Ethiopia. The tree’s fruit provides nourishment for the people and animals, and its shade is traditionally used for public gatherings and school
+            classes. The Warka tree constitutes a very important part of the Ethiopian culture and ecosystem.</div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Tell Us More About The Inspirations Behind The Project</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">The project drew inspiration from various sources. From nature, we observed and studied the Namib Beetle, Spider Web, Termite Hives, Cactus Spines to learn how natural organisms collect and retain water from its surroundings. Culturally, we
+              were inspired by the social significance of the Warka tree, Ethiopian craftsmanship and basket weaving techniques as well as the traditional Mediterranean fish traps called “Nassi di Giunco’.</div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">What Is Needed To Have A Successful Project?</a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body">In order to have a successful installation, the following elements must be present:
+                <br> – social need for water
+                <br> – suitable meteorological conditions and topography
+                <br> – community that will maintain and use it.
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">How Much Does Each Tower Cost To Build?</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body">Once the prototype development and testing phases are completed, we hope to manufacture the Warka on a large scale, which will bring the cost down. For Ethiopia our estimated cost per tower is about $ 1000 – significantly less than other water
+                relief options available. The exact cost will depend on where it will be manufactured.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">What Does It Take To Produce The Warka Towers In Great Numbers?</a>
+              </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+              <div class="panel-body">We need to complete the development phase, test the prototypes by launching and monitoring at pilot locations, and then proceed with the large-scale production. During the pilot phase, we will survey the local surroundings to source materials
+                and determine production sites and requirements.</div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Is The Warka Water Project Only Focusing On Ethiopia, Or Can Other Places Or Countries Benefit From The Towers?</a>
+                </h4>
+              </div>
+              <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">Our goal is to first pilot the towers in Ethiopia and study the possibility of installing them in other geographical contexts that present similar meteorological and topological characteristics as the pilot site.</div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Where Are The Towers Installed Now?</a>
+                </h4>
+              </div>
+              <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body">Warka Water project is in the development phase and has not been installed in Ethiopian communities yet. Currently, prototypes are installed in Italy to run experiments and tests.
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">What Has Been The Local Response To The Tower's Looks And Aesthetics? Has There Been Any Resistance To It's Placement In Communitites?</a>
+                </h4>
+              </div>
+              <div id="collapse10" class="panel-collapse collapse">
+                <div class="panel-body">Warka has not been installed in local communities yet. Nevertheless, a part of the Warka Water concept is to develop a design that can blend into the natural surroundings and aesthetically complement the local architecture. One of our main
+                  sources of inspiration, particularly for the structure’s outer shell, was the traditional Ethiopian craftsmanship and basket-weaving techniques.</div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">How Many Warka Towers Have Been Realized To Date?</a>
+                  </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                  <div class="panel-body">We have constructed 9 Warka towers so far. We are still in the prototyping phase, so we haven’t installed any permanently yet. We are working at the moment on version 3.1</div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">What Is The Difference Between Warka Water V1.0 And V2.0?</a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse">
+                  <div class="panel-body">Warka Water version 2.0 is a 12m structure, 3m taller than the previous prototype. We implemented an improved connection system between the juncus canes, which is faster to assemble. The base is much wider, and thus more stable and allows
+                    for maintenance from the inside. There are moving roots with rotating mirrors that keep the birds away from the tower. Packaging and transportation have been optimized as well.</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">What Is Happening Right Now At Warka Water?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse">
+                    <div class="panel-body">We are developing a new prototype, Warka Water version 3.1, and looking for funding to support the completion of the project.</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">What Is Next For Warka Water?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse14" class="panel-collapse collapse">
+                    <div class="panel-body">To finish developing version 3.1 and launch the first pilot in Ethiopia by the beginning of 2015.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+           =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+          -=-=-=-=-=-=-=-Colapsable FAQ's on Function-=-=-=-=-=-=
+          =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+          <div class="container white">
+            <h2>Function</h2>
+            <div class="panel-group" id="accordion">
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">How Does The Warka Tower Collect Water?</a>
+                  </h4>
+                </div>
+                <div id="collapse15" class="panel-collapse collapse">
+                  <div class="panel-body">WW is designed for harvesting dew and fog and also for rain collection, providing varying amounts of potable water throughout the year. Water can be taken directly and locally from the environment, without wasting energy in transport. Rainwater and fog will be captured and stored during the meteorological events. Water by condensation will occur more frequently at night when the air temperature goes below the dew point.
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">How Much Water Does One Warka Tower Produce And How Is The Water Handled?</a>
+                  </h4>
+                </div>
+                <div id="collapse16" class="panel-collapse collapse">
+                  <div class="panel-body">The project is still in an exploratory phase, but the aim is to collect an annual average of 50 to 100 litres of potable water a day. The harvested water can be used as drinking water and stored for other purposes like irrigation. We will introduce a water management system that teaches the principles of permaculture and appoint a water manager to administer the water distribution guidelines.</div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">Have The Water Collectors Been Tested?</a>
+                  </h4>
+                </div>
+                <div id="collapse17" class="panel-collapse collapse">
+                  <div class="panel-body">We are experimenting with different types of materials and technologies – from polymeric meshes to natural ones – and measuring the water collection performance of the Warka.</div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">How Clean Is The Water Collected With The Warka And How Can You Avoid Contamination?</a>
+                  </h4>
+                </div>
+                <div id="collapse18" class="panel-collapse collapse">
+                  <div class="panel-body">The water produced from rain, fog and dew most likely, if the enviroment is not polluted, will comply with WHO (World Health Organization) recommended guidelines for drinking water. Nevertheless, the probable presence of small amounts of animal and/or vegetal bacteria (e.g., from the excretions of insects drinking the dew water) may require a light antibacterial treatment like boiling or microfiltration. We are currently developing lost-cost water filtering solutions to embed in the Warka towers.</div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">When Should The Water Be Harvested Every Day?</a>
+                  </h4>
+                </div>
+                <div id="collapse19" class="panel-collapse collapse">
+                  <div class="panel-body">The water should be harvested very early in the morning, before sunrise.</div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+</div> -->
